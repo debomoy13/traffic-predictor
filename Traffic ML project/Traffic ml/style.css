@@ -170,3 +170,9 @@ body {
   font-size: 14px;
   background: #fafafa;
 }
+.predict-btn {
+  position: relative;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
