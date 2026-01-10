@@ -180,6 +180,16 @@ body {
 .hero * {
   pointer-events: none;
 }
+/* Enable clicks for navbar */
+.navbar,
+.navbar * {
+  pointer-events: auto;
+}
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
 
 
 
