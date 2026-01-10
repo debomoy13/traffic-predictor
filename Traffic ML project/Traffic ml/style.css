@@ -175,4 +175,11 @@ body {
   z-index: 1000;
   pointer-events: auto;
 }
+/* Disable clicks on hero/background layers */
+.hero,
+.hero * {
+  pointer-events: none;
+}
+
+
 
