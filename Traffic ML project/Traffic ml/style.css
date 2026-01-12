@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 70px;
+  padding: 0 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+  background: rgba(244,246,248,0.9);
+  backdrop-filter: blur(6px);
+}
+
+.logo {
+  font-family: 'Nova Round', system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+
+.nav-links a {
+  margin: 0 16px;
+  text-decoration: none;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.predict-btn {
+  padding: 8px 18px;
+  background: #111827;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* HERO */
+.hero {
+  min-height: calc(100vh - 70px);
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    linear-gradient(
+      rgba(244,246,248,0.85),
+      rgba(244,246,248,0.95)
+    ),
+    url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=60")
+    center / cover no-repeat;
+}
+
+.hero-box {
+  border: 1px solid #d1d5db;
+  display: flex;
+  gap: 48px;
+  padding: 48px;
+  background: rgba(255,255,255,0.9);
+}
+
+.hero-image {
+  flex: 1;
+  background:
+    url("https://images.unsplash.com/photo-1519999482648-25049ddd37b1?auto=format&fit=crop&w=800&q=60")
+    center / cover no-repeat;
+  min-height: 220px;
+}
+
+.hero-text {
+  flex: 1;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* SCROLL */
+.scroll-down {
+  margin-top: 40px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* CONTENT */
+.content {
+  padding: 140px 80px;
+  background:
+    linear-gradient(
+      rgba(245,246,248,0.9),
+      rgba(245,246,248,0.95)
+    ),
+    url("https://images.wallpaperscraft.com/image/single/hong_kong_street_cars_1330687_1920x1080.jpg")
+    center / cover no-repeat;
+}
+
+.content-block h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.content-block p {
+  max-width: 700px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #4b5563;
+}
+.content-card {
+  max-width: 1500px;
+  margin-bottom: 120px;
+  padding: 48px 56px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #e5e7eb;
+}
+
+.content-card h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.content-card p {
+  font-size: 17px;
+  margin-bottom: 18px;
+  line-height: 1.75;
+  color: #374151;
+}
+/* NAV LINKS UNDERLINE ANIMATION */
+.nav-links a {
+  position: relative;
+  margin: 0 16px;
+  text-decoration: none;
+  color: #4b5563;
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #111827;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+
+/* FOOTER */
+.footer {
+  padding: 48px 80px;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  background: #fafafa;
+}
