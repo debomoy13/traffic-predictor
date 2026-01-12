@@ -21,3 +21,5 @@ Status
 
 Traffy Timey is currently under development.
 We’ll be ready soon.
+
+edit : 12/01/20206 : The frontend is ready and u can see the website at "https://adorable-dodol-fc81d5.netlify.app/"
